@@ -5,6 +5,7 @@
 //  Created by Krzysztof Zablocki on 9/25/17.
 //
 
+#if os(iOS)
 import UIKit
 
 fileprivate extension String {
@@ -228,3 +229,5 @@ extension LifetimeTrackerDashboardIntegration {
         return LifetimeTrackerDashboardIntegration(visibility: .alwaysHidden)
     }
 }
+
+#endif

@@ -6,6 +6,7 @@
 //  Copyright © 2018 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 struct SettingsManager {
@@ -49,3 +50,5 @@ struct SettingsManager {
         viewController.present(alert, animated: true, completion: nil)
     }
 }
+
+#endif

@@ -6,6 +6,7 @@
 //  Copyright © 2018 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 enum PopoverVisibility {
@@ -253,3 +254,5 @@ extension CircularDashboardViewController: UIPopoverPresentationControllerDelega
         popoverPresentationController.sourceView = self.roundView
     }
 }
+
+#endif

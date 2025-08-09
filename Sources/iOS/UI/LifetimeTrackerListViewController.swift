@@ -6,6 +6,7 @@
 //  Copyright © 2018 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 protocol PopoverViewControllerDelegate: AnyObject {
@@ -50,3 +51,5 @@ class LifetimeTrackerListViewController: UIViewController {
         }
     }
 }
+
+#endif

@@ -6,6 +6,7 @@
 //  Copyright © 2017 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 internal extension UIView {
@@ -14,3 +15,5 @@ internal extension UIView {
         return UINib(nibName: String(describing: self), bundle: .resolvedBundle)
     }
 }
+
+#endif

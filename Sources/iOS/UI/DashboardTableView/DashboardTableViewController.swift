@@ -6,6 +6,7 @@
 //  Copyright © 2018 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 class DashboardTableViewController: UIViewController {
@@ -88,3 +89,5 @@ extension DashboardTableViewController: UITableViewDelegate {
         return Constants.Layout.Dashboard.sectionHeaderHeight
     }
 }
+
+#endif

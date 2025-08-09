@@ -6,6 +6,7 @@
 //  Copyright © 2017 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 extension Constants {
@@ -43,3 +44,5 @@ extension Constants {
         }
     }
 }
+
+#endif

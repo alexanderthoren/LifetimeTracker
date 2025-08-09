@@ -5,6 +5,7 @@
 //  Created by Hans Seiffert on 21.10.17.
 //
 
+#if os(iOS)
 import UIKit
 
 class DashboardTableViewCell: UITableViewCell {
@@ -30,3 +31,5 @@ class DashboardTableViewCell: UITableViewCell {
         descriptionLabel.text = description
     }
 }
+
+#endif

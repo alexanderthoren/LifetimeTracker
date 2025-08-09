@@ -5,6 +5,7 @@
 //  Created by Krzysztof Zablocki on 9/25/17.
 //
 
+#if os(iOS)
 import UIKit
 
 struct BarDashboardViewModel {
@@ -261,3 +262,5 @@ final class BarDashboardViewController: UIViewController, LifetimeTrackerViewabl
         }
     }
 }
+
+#endif

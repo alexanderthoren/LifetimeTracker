@@ -6,6 +6,8 @@
 //  Copyright © 2018 LifetimeTracker. All rights reserved.
 //
 
+#if os(iOS)
+
 enum HideOption {
     case untilMoreIssue
     case untilNewIssueType
@@ -42,3 +44,5 @@ enum HideOption {
         }
     }
 }
+
+#endif
